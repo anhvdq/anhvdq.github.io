@@ -2,89 +2,91 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="./favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/0.DQ2x1bdw.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/PostsList.tVturszy.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.B7wYevK5.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/YBQSh3MV.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BgAwWOeS.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/X3B0w5Od.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.0NCd5eoI.js">
+		<link href="./_app/immutable/assets/0.BjPAbp4M.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CPHK-mta.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/T7gmwEW4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DvDjvP1N.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BijH41Pn.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Cqngkozh.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D2gFui-Z.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DA-IRGhZ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CsrW9V7B.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/jqrL5lOT.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BWv_kSxO.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.xwcvAQiC.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Cigi5SKG.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DyRz0FHJ.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/3.e2m7eFlX.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BRdkB3YT.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DVhkvrMO.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DuoYOPXJ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DRn9EpZF.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CLG7P9cm.js"><!--[--><meta name="description" content="I’m Ben, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
-"><!--]--><title>Ben Van</title>
+		<link rel="modulepreload" href="./_app/immutable/chunks/DGB6uwgx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DOjAhL_S.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BVlIM4rF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B73ObRao.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.C59b9Z6t.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BT6B5L_f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DW_qNs7x.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C2OuVmU2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.JWFAm1ta.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CKglk6zZ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Dxqpejno.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BBEih3QK.js"><!--[--><meta name="description" content="I’m Ben, a software engineer based in Australia.
+My major profession is in data engineering, specializing in big data technologies (Spark, Trino, Iceberg, etc.) and cloud platforms.
+Beside that, I'm interested in networking, cloud devops, data engineering, game development and parallel computing (Graphics &amp; AI)."><!--]--><title>Ben Van</title>
 		<script>
-        let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+			let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-        updateMode()
-        darkModeMediaQuery.addEventListener('change', updateModeWithoutTransitions)
-        window.addEventListener('storage', updateModeWithoutTransitions)
+			updateMode();
+			darkModeMediaQuery.addEventListener('change', updateModeWithoutTransitions);
+			window.addEventListener('storage', updateModeWithoutTransitions);
 
-        function updateMode() {
-          let isSystemDarkMode = darkModeMediaQuery.matches
-          let isDarkMode =
-            window.localStorage.isDarkMode === 'true' ||
-            (!('isDarkMode' in window.localStorage) && isSystemDarkMode)
+			function updateMode() {
+				let isSystemDarkMode = darkModeMediaQuery.matches;
+				let isDarkMode =
+					window.localStorage.isDarkMode === 'true' ||
+					(!('isDarkMode' in window.localStorage) && isSystemDarkMode);
 
-          if (isDarkMode) {
-            document.documentElement.classList.add('dark')
-          } else {
-            document.documentElement.classList.remove('dark')
-          }
+				if (isDarkMode) {
+					document.documentElement.classList.add('dark');
+				} else {
+					document.documentElement.classList.remove('dark');
+				}
 
-          if (isDarkMode === isSystemDarkMode) {
-            delete window.localStorage.isDarkMode
-          }
-        }
+				if (isDarkMode === isSystemDarkMode) {
+					delete window.localStorage.isDarkMode;
+				}
+			}
 
-        function disableTransitionsTemporarily() {
-          document.documentElement.classList.add('**:transition-none!')
-          window.setTimeout(() => {
-            document.documentElement.classList.remove('**:transition-none!')
-          }, 0)
-        }
+			function disableTransitionsTemporarily() {
+				document.documentElement.classList.add('**:transition-none!');
+				window.setTimeout(() => {
+					document.documentElement.classList.remove('**:transition-none!');
+				}, 0);
+			}
 
-      function updateModeWithoutTransitions() {
-        disableTransitionsTemporarily()
-        updateMode()
-      }
-    </script>
+			function updateModeWithoutTransitions() {
+				disableTransitionsTemporarily();
+				updateMode();
+			}
+		</script>
 	</head>
-	<body class="h-full bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400" data-sveltekit-preload-data="hover">
-		<div><!--[--><!--[--><!----><div class="flex min-h-screen flex-col"><div class="flex w-full flex-grow flex-col px-4 py-2"><header class="mx-auto flex w-full max-w-2xl items-center justify-between py-4 lg:pb-8"><a class="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-lg font-bold !text-transparent sm:text-2xl dark:to-amber-400" href="/">Ben Van</a> <nav class="mx-20 flex flex-grow gap-8 self-end text-lg font-medium"><a href="/about" class="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">About</a> <a href="/posts" class="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Blogs</a></nav> <button type="button" role="switch" aria-label="Toggle Dark Mode" aria-checked="true" class="h-5 w-5 sm:h-8 sm:w-8 sm:p-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-moon hidden text-zinc-500 dark:block"><!--[--><!----><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"><!----></path><!----><!--]--><!----><!----></svg><!----> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-sun block text-zinc-400 dark:hidden"><!--[--><!----><circle cx="12" cy="12" r="4"><!----></circle><!----><!----><path d="M12 2v2"><!----></path><!----><!----><path d="M12 20v2"><!----></path><!----><!----><path d="m4.93 4.93 1.41 1.41"><!----></path><!----><!----><path d="m17.66 17.66 1.41 1.41"><!----></path><!----><!----><path d="M2 12h2"><!----></path><!----><!----><path d="M20 12h2"><!----></path><!----><!----><path d="m6.34 17.66-1.41 1.41"><!----></path><!----><!----><path d="m19.07 4.93-1.41 1.41"><!----></path><!----><!--]--><!----><!----></svg><!----></button></header> <main class="mx-auto flex w-full flex-grow flex-col max-w-2xl"><!----><div class="flex grow flex-col gap-8 pb-16"><section class="flex flex-col items-center gap-16 pt-8 pb-16"><div class="flex w-full flex-col items-center gap-6 rounded-lg"><img src="https://cdn-icons-png.flaticon.com/512/10988/10988147.png" alt="Ben Van" class="mx-auto h-36 w-36 rounded-full ring-2 ring-zinc-200 dark:ring-zinc-700"> <div class="flex gap-6"><!--[!--><!--]--> <!--[!--><!--]--> <!--[--><a href="https://github.com/anhvdq" class="group" aria-label="Follow on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"></path></svg></a><!--]--> <!--[!--><!--]--><!----></div> <p class="text-base text-zinc-600 dark:text-zinc-400">I’m Ben, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
-</p></div></section> <section class="w-full"><div class="mb-8 flex items-center justify-between gap-4"><h2 class="text-sm font-medium text-zinc-500 sm:text-base dark:text-zinc-400">Recently Published</h2> <a href="/posts" class="flex items-center gap-1 text-sm font-medium text-amber-500">View All <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg><!----></a></div> <div class="flex flex-col gap-16 md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40"><!--[--><!--]--></div><!----></section></div><!----><!----></main></div></div><!----><!--]--> <!--[!--><!--]--><!--]-->
+	<body
+		class="h-full bg-white text-zinc-600 dark:bg-zinc-900 dark:text-zinc-400"
+		data-sveltekit-preload-data="hover"
+	>
+		<div><!--[--><!--[--><!----><div class="flex min-h-screen flex-col"><div class="flex w-full flex-grow flex-col px-4 py-2"><header class="mx-auto flex w-full max-w-4xl items-center justify-between py-4 lg:pb-8"><a class="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-lg font-bold !text-transparent sm:text-2xl dark:to-amber-400" href="/">Ben Van</a> <nav class="ml-15 flex flex-grow gap-8 self-end text-sm font-medium sm:ml-25 sm:text-lg"><a href="/about" class="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">About</a> <a href="/posts" class="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Blogs</a></nav> <button type="button" role="switch" aria-label="Toggle Dark Mode" aria-checked="true" class="h-5 w-5 sm:h-8 sm:w-8 sm:p-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-moon hidden text-zinc-500 dark:block"><!--[--><!----><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"><!----></path><!----><!--]--><!----><!----></svg><!----> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-sun block text-zinc-400 dark:hidden"><!--[--><!----><circle cx="12" cy="12" r="4"><!----></circle><!----><!----><path d="M12 2v2"><!----></path><!----><!----><path d="M12 20v2"><!----></path><!----><!----><path d="m4.93 4.93 1.41 1.41"><!----></path><!----><!----><path d="m17.66 17.66 1.41 1.41"><!----></path><!----><!----><path d="M2 12h2"><!----></path><!----><!----><path d="M20 12h2"><!----></path><!----><!----><path d="m6.34 17.66-1.41 1.41"><!----></path><!----><!----><path d="m19.07 4.93-1.41 1.41"><!----></path><!----><!--]--><!----><!----></svg><!----></button></header> <main class="mx-auto flex w-full flex-grow flex-col max-w-2xl"><!----><div class="flex grow flex-col gap-8 pb-16"><section class="flex flex-col items-center gap-16 pt-8 pb-8"><div class="flex w-full flex-col items-center gap-6 rounded-lg"><img src="/avatar.jpg" alt="Ben Van" class="mx-auto h-36 w-36 rounded-full ring-2 ring-zinc-200 dark:ring-zinc-700"> <div class="flex gap-6"><!--[--><a class="group" aria-label="Send an email" href="mailto:anh.vdq@gmail.com" data-svelte-h="svelte-ptef6p"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="text-primary fill-primary group-hover:fill-primary-light h-6 w-6 transition"><path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"></path><path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"></path></svg></a><!--]--> <!--[!--><!--]--> <!--[!--><!--]--> <!--[--><a href="https://github.com/anhvdq" class="group" aria-label="Follow on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"></path></svg></a><!--]--> <!--[--><a href="https://linkedin.com/anhvdq" class="group" aria-label="Follow on LinkedIn"><svg viewBox="0 0 24 24" class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path></svg></a><!--]--><!----></div> <p class="text-base text-zinc-600 dark:text-zinc-400">Experienced Data Engineer with 4+ years of experience in designing and implementing scalable
+				data solutions, specializing in big data technologies (Spark, Trino, Iceberg, etc.) and
+				cloud platforms. Proven ability in data pipeline optimization and AI integration to drive
+				business value.</p> <div class="flex w-full flex-col gap-2"><span class="font-bold text-zinc-900 uppercase dark:text-zinc-200">Skills:</span> <ul class="ml-6 flex list-disc flex-col gap-2"><li><span class="font-medium text-zinc-900 dark:text-zinc-200">Programming Languages:</span> Python, Rust</li> <li><span class="font-medium text-zinc-900 dark:text-zinc-200">Big Data &amp; Cloud:</span> Spark, Trino, Hadoop, Phoenix, GCP</li> <li><span class="font-medium text-zinc-900 dark:text-zinc-200">Databases:</span> Elasticsearch, Iceberg, HBase, PostgreSQL</li> <li><span class="font-medium text-zinc-900 dark:text-zinc-200">Infrastructure:</span> Kubernetes, Docker</li> <li><span class="font-medium text-zinc-900 dark:text-zinc-200">Frameworks:</span> FastAPI, NestJS, Langchain</li></ul></div></div></section> <section class="w-full pb-6"><div class="mb-8 flex items-center justify-between gap-4"><h2 class="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-base font-bold !text-transparent uppercase sm:text-lg dark:to-amber-400">Work Experiences</h2></div> <div class="flex flex-col gap-8 md:pl-3"><!--[--><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Dec 2023 – Present</div> <div class="flex flex-col gap-2"><p><span class="font-medium text-zinc-900 dark:text-zinc-200">Title:</span> Software Engineer @
+							Feedwell</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> System Development - Food Ordering Operations</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Python, FastAPI, LangChain, Docker, GCP</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Developed <span class="text-amber-500 dark:text-amber-400 font-medium">AI-powered</span> solutions for parsing and processing complex data files, improving data extraction efficiency.<!----></li><li><!---->Integrated data pipelines from multiple external sources, ensuring data consistency for comprehensive reporting.<!----></li><li><!---->Leveraged <span class="text-amber-500 dark:text-amber-400 font-medium">Google Cloud Platform</span> to build and deploy reliable and scalable data processing systems.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Oct 2022 – Dec 2023</div> <div class="flex flex-col gap-2"><p><span class="font-medium text-zinc-900 dark:text-zinc-200">Title:</span> Data Engineer @
+							LARION</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> MARS – Data Operation</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Python, PySpark, Kubernetes</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Developed <span class="text-amber-500 dark:text-amber-400 font-medium">ETL</span> pipelines using <span class="text-amber-500 dark:text-amber-400 font-medium">PySpark</span> to process big data up to TBs in various formats.<!----></li><li><!---->Troubleshooted and resolved data problems using <span class="text-amber-500 dark:text-amber-400 font-medium">Linux</span> tools, improving data quality and <span class="text-amber-500 dark:text-amber-400 font-medium">ETL</span> reliability.<!----></li><li><!---->Conducted peer reviews following <span class="text-amber-500 dark:text-amber-400 font-medium">Agile</span> process to ensure quality and development of data pipelines.<!----></li><li><!---->Researched new technologies to help the whole team improve with sharing sessions.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">May 2022 – Oct 2022</div> <div class="flex flex-col gap-2"><p><span class="font-medium text-zinc-900 dark:text-zinc-200">Title:</span> Software Engineer @
+							DFKSoft</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> Operational System Development, Freelance</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Python, FastAPI, Docker, GCP</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Designed the database and workflows using <span class="text-amber-500 dark:text-amber-400 font-medium">BigQuery</span> as the main storage.<!----></li><li><!---->Applied serverless computing to synchronize changes from the operational system using <span class="text-amber-500 dark:text-amber-400 font-medium">Cloud Functions</span>.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Jun 2020 – Apr 2022</div> <div class="flex flex-col gap-2"><p><span class="font-medium text-zinc-900 dark:text-zinc-200">Title:</span> Data Engineer @
+							Antsomi CDP 365</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> Antsomi – Customer Data Platform</p> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Java, Spark, ElasticSearch, Trino, Iceberg, HBase, Docker</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Developed and managed <span class="text-amber-500 dark:text-amber-400 font-medium">ETL</span> pipelines of <span class="text-amber-500 dark:text-amber-400 font-medium">Customer Data Platform</span> used by more than 20 clients.<!----></li><li><!---->Applied NoSQL technologies such as <span class="text-amber-500 dark:text-amber-400 font-medium">HBase</span>, <span class="text-amber-500 dark:text-amber-400 font-medium">Iceberg</span> to feed data for different purposes.<!----></li><li><!---->Customized extensions for <span class="text-amber-500 dark:text-amber-400 font-medium">Spark</span> and <span class="text-amber-500 dark:text-amber-400 font-medium">Trino</span> to meet user business requirements.<!----></li><li><!---->Monitored system performance via <span class="text-amber-500 dark:text-amber-400 font-medium">Grafana</span> to proactively detect bottlenecks and resolve issues.<!----></li><li><!---->Researched new technologies, designed data platform architecture and shared ideas to deliver a more scalable and efficient system to meet clients’ needs.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><!--]--></div></section> <section class="w-full pb-6"><div class="mb-8 flex items-center justify-between gap-4"><h2 class="bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-base font-bold !text-transparent uppercase sm:text-lg dark:to-amber-400">Personal Projects</h2></div> <div class="flex flex-col gap-8 md:pl-3"><!--[--><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Dec 2024 – Mar 2025</div> <div class="flex flex-col gap-2"><!--[!--><!--]--> <div class="prose dark:prose-invert"><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> <!---->Automate Marketing Platform<!----></div> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> AWS (EC2, Route 53, ALB), Terraform, Langchain, NestJS, Typescript, PostgreSQL, GPT 4o, Kubernetes, Podman</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Contributed to a marketing platform to help reduce the cost of market campaigns and achieve better performance.<!----></li><li><!---->Implemented task automation service using <span class="text-amber-500 dark:text-amber-400 font-medium">GPT 4o</span>, generated effective and optimized campaign content.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Sep 2024 – Nov 2024</div> <div class="flex flex-col gap-2"><!--[!--><!--]--> <div class="prose dark:prose-invert"><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> <!---->Berry For Couples – <a href="https://apps.apple.com/us/app/berry/id6737428862">iOS</a> / <a href="https://play.google.com/store/apps/details?id=com.berry.berrycouples.pro&pcampaignid=web_share">Android</a><!----></div> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Kubernetes, Podman, NestJS, Typescript, PostgreSQL</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Created a menstruation tracking application to facilitate information sharing between women and their partner.<!----></li><li><!---->Developed the web service to help manage operational data and implement partner notification features (email and in-app alerts), enhancing user experience and partner awareness.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Jun 2024 – Jul 2024</div> <div class="flex flex-col gap-2"><!--[!--><!--]--> <div class="prose dark:prose-invert"><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> <!---->Keterrest - OS Project - <a href="https://github.com/anhvdq/keterrest">Github</a><!----></div> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Rust, Axum, PostgreSQL</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Developed a modular RESTful template using the <span class="text-amber-500 dark:text-amber-400 font-medium">Rust</span> programming language.<!----></li><li><!---->Learned and applied the ownership paradigm in <span class="text-amber-500 dark:text-amber-400 font-medium">Rust</span>.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><div class="grid grid-cols-1 gap-4 md:grid-cols-[1fr_2fr]"><div class="font-medium text-zinc-900 md:border-r md:border-zinc-100 dark:text-zinc-200 md:dark:border-zinc-700/40">Jan 2022 – Mar 2022</div> <div class="flex flex-col gap-2"><!--[!--><!--]--> <div class="prose dark:prose-invert"><span class="font-medium text-zinc-900 dark:text-zinc-200">Project:</span> <!---->Phoenix / Spark connectors - OS Project - <a href="https://github.com/anhvdq/keterrest">Github</a><!----></div> <p><span class="font-medium text-zinc-900 dark:text-zinc-200">Skills:</span> Spark, Scala, Java, Phoenix, HBase</p> <ul class="ml-6 flex list-disc flex-col gap-2"><!--[--><li><!---->Created a <span class="text-amber-500 dark:text-amber-400 font-medium">Spark</span> extension to access data stored in <span class="text-amber-500 dark:text-amber-400 font-medium">HBase</span>, supporting the <span class="text-amber-500 dark:text-amber-400 font-medium">Spark 3.0+</span> Data Source API and extending new features for private uses.<!----></li><!--]--></ul></div></div> <div class="block border-t border-zinc-100 md:hidden dark:border-zinc-700/40"></div><!--]--></div></section></div><!----><!----></main></div></div><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1bc3jdj = {
+					__sveltekit_11qrghh = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.B7wYevK5.js"),
-						import("./_app/immutable/entry/app.0NCd5eoI.js")
+						import("./_app/immutable/entry/start.CPHK-mta.js"),
+						import("./_app/immutable/entry/app.Cqngkozh.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],
