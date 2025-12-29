@@ -1,0 +1,1 @@
+import{j as e,O as l}from"./main-D7ZdPl14.js";function o(){return e.jsx("div",{className:"flex flex-1 flex-col",children:e.jsx("div",{className:"@container/main flex flex-1 flex-col gap-2",children:e.jsx(l,{})})})}export{o as component};

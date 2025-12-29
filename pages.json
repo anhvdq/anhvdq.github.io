@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "path": "/"
+    },
+    {
+      "path": "/about"
+    },
+    {
+      "path": "/platform/login"
+    },
+    {
+      "path": "/platform/assets"
+    },
+    {
+      "path": "/platform/dashboard"
+    },
+    {
+      "path": "/platform/datasets"
+    },
+    {
+      "path": "/platform/settings"
+    },
+    {
+      "path": "/platform/tasks"
+    },
+    {
+      "path": "/posts"
+    },
+    {
+      "path": "/platform/assets/"
+    },
+    {
+      "path": "/platform/datasets/"
+    },
+    {
+      "path": "/platform/tasks/"
+    },
+    {
+      "path": "/posts/p/hello-world",
+      "fromCrawl": true
+    }
+  ],
+  "host": "anhvdq.github.io",
+  "lastBuilt": "2025-12-29T12:40:20.329Z"
+}
